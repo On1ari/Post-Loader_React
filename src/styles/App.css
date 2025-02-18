@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* background: white; */
   color: black;
 }
 
@@ -33,13 +32,16 @@
 .post-enter {
   opacity: 0.1;
 }
+
 .post-enter-active {
   opacity: 1;
   transition: opacity 250ms ease-in;
 }
+
 .post-exit {
   opacity: 1;
 }
+
 .post-exit-active {
   opacity: 0;
   transition: opacity 250ms ease-in;
@@ -73,4 +75,3 @@
 .navbar__links {
   margin-left: auto;
 }
-
